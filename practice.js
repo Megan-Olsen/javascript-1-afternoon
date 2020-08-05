@@ -64,17 +64,17 @@ let groceries = ['apples', 'milk', 'eggs', 'bread'];
 //and goodBoy (a boolean).
 
 //Code Here
-let dog = {
+let dog={
   name: 'name',
   color: 'color',
   age: age,
   goodBoy: true
-}
+};
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-var devMountainClassPet = dog.name
+let devMountainClassPet = dog.name
 
 //////////////////PROBLEM 10////////////////////
 
