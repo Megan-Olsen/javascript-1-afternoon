@@ -92,7 +92,7 @@ function nameCheck(name){
   } else if(name === 'Bryan'){
     return 'Hey Bryan!';
   }else{
-    return 'Cool name, ' + '$[name]'
+    return 'Cool name, ' + $[name]
   }
 }
 
@@ -103,12 +103,14 @@ function nameCheck(name){
 // The add function should return the two parameters added together
 
 //Code Here
-
+let add=function(num1, num2){
+  return num1 + num2
+}
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
 //Code Here
-
+let mathSum = add(3, 4)
 //////////////////PROBLEM 12////////////////////
 
 //Write a function called faveColorFinder that takes in one parameter called color
