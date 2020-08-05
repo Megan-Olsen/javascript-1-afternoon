@@ -38,7 +38,7 @@ var devMountainGoal = null
 
 //Code here
 function greeting(name){
-  return 'Hello,' + name
+  return 'Hello, ' + name
 }
 //////////////////PROBLEM 7////////////////////
 
@@ -47,7 +47,7 @@ function greeting(name){
 
 //Code Here
 const newGreeting = function(name){
-  return 'Hello,' + name
+  return 'Hello, ' + name
 }
 //////////////////PROBLEM 8////////////////////
 
@@ -92,7 +92,7 @@ function nameCheck(name){
   } else if(name === 'Bryan'){
     return 'Hey Bryan!';
   }else{
-    return 'Cool name,' + '$[name]'
+    return 'Cool name, ' + '$[name]'
   }
 }
 
@@ -158,7 +158,7 @@ let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
 //Create a variable called age with your age assigned to you
 
 // Code Here
-
+let age = 28
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
