@@ -67,7 +67,7 @@ let groceries = ['apples', 'milk', 'eggs', 'bread'];
 let dog={
   name: 'name',
   color: 'color',
-  age: age,
+  age: 6,
   goodBoy: true
 };
 //...access the dog's name from the object and assign it to a
@@ -92,7 +92,7 @@ function nameCheck(name){
   } else if(name === 'Bryan'){
     return 'Hey Bryan!';
   }else{
-    return 'Cool name, ' + $[name]
+    return 'Cool name, ' + name;
   }
 }
 
